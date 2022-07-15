@@ -1,0 +1,37 @@
+@import "../Utils/variables";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap');
+@import url(//db.onlinewebfonts.com/c/bc146f36f662e7bb6c1906010fd29ff5?family=FrontageW00-Regular);
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+h2{
+    font-family: 'FrontageW00-Regular', sans-serif;
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: .9rem;
+    color: #353535;
+}
+.footer{
+    &__title{
+        font-family: 'Roboto', sans-serif;
+        text-transform : uppercase;
+        font-weight: 600;
+        color: white;
+    }
+}
+
