@@ -1,0 +1,34 @@
+.container{
+    height: auto;
+    width: 100vw;
+    background: $color-secondary;
+    padding: 2.5%;
+    border-top: solid 2px $color-tertiary;
+    overflow: hidden;
+}
+
+.footer{
+    &_wrapper{
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-around;
+        margin-top:2.5%;
+        ul{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10%;
+        }
+        li{
+            padding-top: 5%;
+        }
+    }
+    &__end{
+        position: relative;
+        bottom: -75px;
+    }
+}
+
+
+                                        /*responsive_design*/
+
+

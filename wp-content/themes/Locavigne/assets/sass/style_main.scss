@@ -1,0 +1,19 @@
+                                        /*import_general*/
+@import "../sass/Base/reset";
+@import "../sass/Base/font";
+@import "../sass/Utils/variables";
+@import "../sass/Utils/mixins";
+
+                                        /*import_design*/
+@import "../sass/Layout/header_part";
+@import "../sass/Layout/footer_part";
+@import "../sass/Layout/main_part";
+
+
+                                        /*main_design*/
+.home{
+    max-width:100vw;
+    min-height:100vh;
+    position:relative;
+    background-color: $color-primary;
+}
